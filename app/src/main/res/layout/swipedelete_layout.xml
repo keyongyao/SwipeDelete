@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.example.future.swipedelete.SwipeDeleteItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sdi_swipeDel_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    tools:showIn="@layout/activity_main">
+
+    <include layout="@layout/swipedel_content"/>
+
+    <include layout="@layout/swipedel_choice"/>
+</com.example.future.swipedelete.SwipeDeleteItem>
